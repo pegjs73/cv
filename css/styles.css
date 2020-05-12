@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #40514e;
+}
+
+h1 {
+  color: #7d5a5a;
+  margin: 0 auto;
+  font-family: 'Kalam', cursive;
+  font-size: 562.5%;
+  /* line-height: 2; */
+  /* font-size: 90px; not dynamic so if someone changes the font size in a browser, the font size will remain the same.
+
+  100% = 16px so if we want the font to be 90px 90/16 = ‭5.625‬ x 100 = 562.5%
+
+  There are some uses of 'em' 1em = 16px, so you can use either 'em' or '%'
+
+  */
+}
+
+h2 {
+  color: #7d5a5a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  margin: 0 auto 25px auto;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #581c0c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  margin: 50px auto;
+  width: 20%;
+}
+
+a {
+  color: #581c0c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+span {
+  font-weight: normal;
+}
+
+p {
+  line-height: 2;
+}
+
+li {
+  position: relative;
+  left: 5%;
+}
+
+.top-container {
+  background-color: #f1d1d1;
+  padding-top: 100px;
+  /* position cloud */
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* .mountain{
+  width: 50rem;
+} */
+
+.profile-pic-intro {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+/* .profile-pic {
+  /* float: left; */
+  position: relative;
+  width: 50px;
+  margin-right: 25px;
+} */
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.img-pm {
+  float: left;
+  margin-right: 25px;
+  width: 50px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.img-web {
+  float: left;
+  margin-right: 25px;
+  width: 50px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  /* position: relative;
+  left: 25%;
+  should have used margin: auto; to center the container*/
+  margin: auto;
+  text-align: left;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #b86464;
+  background: linear-gradient(to bottom, #e3b6b6 5%, #b86464 100%);
+  background-color: #e3b6b6;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px auto 25px auto;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #782b2b;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #b86464 5%, #e3b6b6 100%);
+  background-color: #b86464;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #f1d1d1;
+  height: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-link {
+  color: #7d5a5a;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  background-color: #f1d1d1;
+}
+
+.copyright {
+  font-size: .75rem;
+  color: #7d5a5a;
+}
+
+/*
+.second-skills-paragraph {
+  clear: left;
+} */
+
+/***************** testing on my own ***********/
+/* color pallette being used: https://colorhunt.co/palette/181689 */
+/* body{
+  color: #7d5a5a;
+} */
+/* img{
+   width: 15%;
+ } */

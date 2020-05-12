@@ -1,87 +1,77 @@
-  <!-- html 5 -->
-  <!DOCTYPE html>
-  <html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-  <head>
-    <!-- utf-8 is all the characters we can use on this website, incl emojis - see heart example in title - this is the stadarad coding https://unicode-table.com-->
-    <meta charset="utf-8">
-    <!-- check out 'meta' in mdn for more info to  -->
-    <title>❤Peggy's Personal Site</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Peggy Settel</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel=" icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images\peggycrop.jpg" alt="peggy's profile picture"></td>
-        <td>
-          <h1>Peggy Settel</h1>
-          <p><em>IT Service Manager - SSIT - <strong><a href="https://cornell.edu">Cornell University</a></strong></em>
-          </p>
-          <p>I am a IT service and project manager. I like to make wine in my spare time.</p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h2>Education</h2>
-    <ul>
-      <li>Cornell University (2020)</li>
-      <ul>
-        <li>Web Design and Development</li>
-      </ul>
-      <li>Mansfield University (1997)</li>
-      <ul>
-        <li>Bachleor's of Science, Business Administration</li>
-      </ul>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <!-- thead you can style these different than the <tbody> -->
-        <th>Dates</th>
-        <th>Work</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2018-present</td>
-          <td>IT Service Manager at Cornell</td>
-        </tr>
-        <tr>
-          <td>2016-2018</td>
-          <td>IT PM and BA at Cornell</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Project Management</td>
-        <td> 🌟🌟🌟🌟🌟</td>
-      </tr>
-      <tr>
-        <td>Customer Relationship Management</td>
-        <td>🌟🌟🌟🌟🌟</td>
-      </tr>
-      <tr>
-        <td>Web Development</td>
-        <td>🌟👌</td>
-      </tr>
-      <tr>
-        <td>Photography</td>
-        <td> 🌟🌟</td>
-      </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact.html">Contact Me</a>
+<body>
+  <div class="top-container">
+    <!-- elemenets that allows you to divide content on the site -->
+    <img class="top-cloud" src="images\cloud.png" alt="cloud image">
+    <h1>I'm Peggy</h1>
+    <h2><span>a web developer.</span></h2>
+    <img class="bottom-cloud" src="images\cloud.png" alt="cloud image">
+    <img class="mountain" src="images\mountain.png" alt="mountain image">
+  </div>
 
-    <body>
-      <hr>
-      <footer>
-      <p>
-          <a href="inputs.html">Inputs</a>
-      </p>
-      </footer>
+  <div class="middle-container">
+    <div class="profile">
+      <h2>Hello.</h2>
+      <div class="profile-pic-intro">
+        <img class="profile-pic" src="images\peggy.jpg" alt="image of me">
+        <p class="intro">I'm an experienced IT professional with over 20 years of experience.</p>
+      </div>
 
-  </html>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="img-web" src="images\web.png" alt="">
+        <h3>Web Development</h3>
+        <p>I'm a beginner with the following skills:</p>
+        <ul>
+          <li>HTML 5</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div class="skill-row">
+        <img class="img-pm" src="images\pm.png" alt="">
+        <h3>Project Management</h3>
+        <p class="second-skills-paragraph">I'm an expert Project Manager with the following skills:</p>
+        <ul>
+          <li>Project Lifecycle Management</li>
+          <li>Waterfall</li>
+          <li>Agile</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>How can I help your small business achieve it's goals?</h3>
+      <p>Reach out to me for a free evaluation.</p>
+      <a href="mailto:pegjs73@gmail.com" class="btn">Contact Me</a>
+
+      <!-- <a class="btn" href="mailto:pegjs73@gmail.com">CONTACT ME</a> -->
+      <!-- <button class="BUTTON_SZG" type="button" name="contact me">CONTACT ME</button> -->
+    </div>
+  </div>
+  </div>
+</body>
+<footer>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/peggysettel/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/psettel_cu">Twitter</a>
+    <a class="footer-link" href="https://ssit.scl.cornell.edu">Work Site</a>
+    <p class="copyright">© 2020 Peggy Settel</p>
+  </div>
+</footer>
+
+</html>
